@@ -2,7 +2,7 @@
 ##一个基于HttpURLConnection的轻量级HttpClient，请求实体均继承与RequestEntity，可拓展性强。
 ***
 
-\\\java
+'''
 public class Test {
 	public static void main(String[] args) throws HttpException, IOException {
 		HttpClient httpClient = new HttpClient();
@@ -15,6 +15,6 @@ public class Test {
 		System.out.println(response.body());
 	}
 }
-\\\
+'''
 
 ***
